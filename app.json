@@ -1,0 +1,33 @@
+{
+  "name": "Salesforce and Google Hangouts Chat (Einstein)",
+  "description": "Node",
+  "keywords": ["salesforce", "google", "chat", "einstein"],
+  "website":
+    "https://github.com/muenzpraeger/salesforce-google-hangouts-chat-einstein-bot",
+  "repository":
+    "https://github.com/muenzpraeger/salesforce-google-hangouts-chat-einstein-bot",
+  "success_url": "/",
+  "env": {
+    "GOOGLE_CHAT_TOKEN": {
+      "description": "Google Hangout Chat token"
+    },
+    "SALESFORCE_CONSUMER_KEY": {
+      "description": "Consumer Key of the Connected App in Salesforce"
+    },
+    "SALESFORCE_CONSUMER_SECRET": {
+      "description": "Consumer Secret of the Connected App in Salesforce"
+    },
+    "SALESFORCE_USERNAME": {
+      "description": "Salesforce username for Salesforce org authentication"
+    },
+    "SALESFORCE_PASSWORD": {
+      "description": "Salesforce password for Salesforce org authentication"
+    },
+    "SALESFORCE_ORG_URL": {
+      "description": "URL for Salesforce org"
+    },
+    "EINSTEIN_INTENT_MODEL": {
+      "description": "URL for Salesforce org"
+    }
+  }
+}
